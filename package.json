@@ -1,0 +1,18 @@
+{
+  "name": "slack-invite-group",
+  "version": "0.0.1",
+  "description": "This method invites a user to a group",
+  "main": "index.js",
+  "author": "Run Dexter, Inc",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "q": "^1.4.1",
+    "superagent": "^1.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rundexter/slack-invite-group"
+  }
+}

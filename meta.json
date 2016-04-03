@@ -1,0 +1,22 @@
+/*
+ * Metadata describing the module operation
+ */
+{
+    //Required. Inputs the module expects.
+    "inputs": [{
+        "id"    : "group_id",
+        "title" : "Group Id"
+    }, {
+        "id"    : "user_id",
+        "title" : "User Id"
+    }],
+    //Required. Outputs the module emits.
+    "outputs": [],
+    "providers": [{
+        "name"   : "slack",
+        "scopes" : ["groups:write","channels:read","users:read"]
+    }],
+    "icon": "slack",
+    /* Required.A display name for the module */
+    "title": "Slack Invite Group"
+}
